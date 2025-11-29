@@ -1,3 +1,3 @@
 [
-  { "url": "https://i.imgur.com/6C4Kwav.png", "chunk": [973, 758], "coords": [0, 0] }
+  { "url": "https://i.imgur.com/qRmZuT1.png", "chunk": [973, 758], "coords": [0, 0] }
 ]
