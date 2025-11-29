@@ -90,7 +90,7 @@
             }
 
             console.log("[Overlay] Baixando novo imagens.js do GitHub...");
-            const res = await fetch("https://raw.githubusercontent.com/ZaryImortal/wplace.live-overlay-multi-chunk/refs/heads/main/imagens.js?" + now);
+            const res = await fetch("https://raw.githubusercontent.com/joseheb123/wplace.live-overlay-multi-chunk/refs/heads/main/imagens.js?" + now);
             const json = await res.json();
 
             localStorage.setItem(CACHE_KEY, JSON.stringify({ timestamp: now, data: json }));
