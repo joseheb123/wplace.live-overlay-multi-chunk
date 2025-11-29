@@ -119,7 +119,7 @@
         "Norte de Portugal"
     ];
     const overlayCoords = [
-        { lat: 42.2180, lng: 8.9169 }
+        { lat: 42.2180, lng: -8.9169 }
     ];
 
     function resetProgress() {
