@@ -116,34 +116,10 @@
     const selectedColors = [];
 
     const overlayNames = [
-        "Onça",
-        "Pardo Moggada",
-        "Base Imperial",
-        "Base Imperial 2",
-        "Evil Morty",
-        "Evil Morty 2",
-        "Anti-Comuna",
-        "Yellow space",
-        "Sonic",
-        "Creative Space",
-        "Mini Cristo",
-        "Ger Patrioten",
-        "Valete"
+        "Norte de Portugal"
     ];
     const overlayCoords = [
-        { lat: -23.6260, lng: -46.8656 },
-        { lat: -23.0914, lng: -46.0435 },
-        { lat: -23.4968, lng: -47.0192 },
-        { lat: -22.5089, lng: -43.1814 },
-        { lat: -24.1511, lng: -46.0176 },
-        { lat: -26.3508, lng: -45.8199 },
-        { lat: -23.7265, lng: -47.1685 },
-        { lat: -23.7276, lng: -46.8653 },
-        { lat: -23.6880, lng: -46.9285 },
-        { lat: -23.5834, lng: -46.9270 },
-        { lat: -23.6679, lng: -46.8382 },
-        { lat: 52.0277, lng: 12.6946 },
-        { lat: -24.0308, lng: -46.9558 }
+        { lat: 42.2180, lng: 8.9169 }
     ];
 
     function resetProgress() {
