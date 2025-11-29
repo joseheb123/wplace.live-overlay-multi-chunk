@@ -20,7 +20,7 @@
 
     const CURRENT_VERSION = "0.8.2";
     const CACHE_KEY = "wplace_overlay_cache_v1";
-    const CACHE_TIME = 24 * 60 * 60 * 1000; // 24h
+    const CACHE_TIME = 5000; // 24h
     const CACHE_VERSION_KEY = "wplace_overlay_script_version";
 
     // 🧹 Limpa cache se a versão local mudou
