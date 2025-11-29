@@ -11,8 +11,8 @@
 // @connect      raw.githubusercontent.com
 // @connect      i.imgur.com
 // @connect      i.ibb.co
-// @updateURL    https://raw.githubusercontent.com/ZaryImortal/wplace.live-overlay-multi-chunk/refs/heads/main/overlay.js
-// @downloadURL  https://raw.githubusercontent.com/ZaryImortal/wplace.live-overlay-multi-chunk/refs/heads/main/overlay.js
+// @updateURL    https://raw.githubusercontent.com/joseheb123/wplace.live-overlay-multi-chunk/refs/heads/main/overlay.js
+// @downloadURL  https://raw.githubusercontent.com/joseheb123/wplace.live-overlay-multi-chunk/refs/heads/main/overlay.js
 // ==/UserScript==
 
 (async function () {
@@ -46,7 +46,7 @@
     // 🔍 Checa se há nova versão (apenas se maior)
     async function checkForUpdate() {
         try {
-            const meta = await fetch("https://raw.githubusercontent.com/ZaryImortal/wplace.live-overlay-multi-chunk/refs/heads/main/overlay.js?" + Date.now());
+            const meta = await fetch("https://raw.githubusercontent.com/joseheb123/wplace.live-overlay-multi-chunk/refs/heads/main/overlay.js?" + Date.now());
             const text = await meta.text();
             const match = text.match(/@version\s+([\d.]+)/);
             if (!match) return;
